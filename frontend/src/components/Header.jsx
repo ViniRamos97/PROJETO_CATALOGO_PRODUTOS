@@ -1,8 +1,14 @@
-import { useState } from "react";
-
 function Header(){
 
-    // return();
+    return(
+
+        <header className="header">
+
+            <h1>Catálogo de Produtos</h1>
+            <p>Projeto Full Stack</p>
+
+        </header>
+    );
 }
 
 export default Header;
